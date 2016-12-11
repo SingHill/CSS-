@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <title>任务1：九宫格</title>
     <style>
+        body{
+            overflow: hidden;
+        }
         .box{
-            width: 31vmin;
-            height: 31vmin;
+            width: 30vmin;
+            height: 30vmin;
+            min-height: 50px;
+            min-width: 50px;
             background-color: green;
             border: 10px;
             border-radius: 5px;
@@ -38,8 +43,7 @@
     <div class="box" id="box8"></div>
     <div class="box" id="box9"></div>
 </div>
-<a class="button" href="../index.html"><button type="button" >返回首页</button>
-</a>
-<div style="clear:left;"><h5>低版本浏览器可能不支持vmin,请升级</h5></div>
+<a class="button" href="../index.html"><button type="button" >返回首页</button></a>
+<h5 style="float: left;clear:left;">低版本浏览器可能不支持,请前往<a href="./JiuGongGe.html">九宫格</a>查看</h5>
 </body>
 </html>
