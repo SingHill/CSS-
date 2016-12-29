@@ -27,7 +27,7 @@ input:-moz-placeholder{font-family: SimHei,sans-serif;color: #e5e8ea;}
 .text1{
     height: 65px;
     width: 65px;
-    margin:auto;
+    margin:auto auto auto 5px;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
 
